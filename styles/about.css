@@ -1,0 +1,460 @@
+main h2 {
+    color: #555555;
+    font-size: 26px;
+    margin-bottom: 13px;
+} 
+
+main p {
+    margin-bottom: 20px;
+}
+
+
+
+.who-we-are {
+    background-image: url('../images/business-background-picture-wide-hd-cool-wallpaper-85481.jpg');
+    min-height: 300px;
+    background-size: cover;
+    background-position: 33% 14%;
+}
+
+.who-we-are .inner-container {
+    width: 100%;
+    min-height: 300px;
+}
+
+.who-we-are .overlay {
+    background-color: rgba(0,0,0,.5);
+}
+
+.who-we-are .container-box {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.who-we-are .inner-col {
+    padding: 30px 15px;
+    flex-basis: 60%;
+    text-align: center;
+}
+
+.who-we-are .inner-col h3 {
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    font-size: 45px;
+    color: #ffffff;
+    line-height: 0.75;
+}
+
+.who-we-are .inner-col p {
+    color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.who-we-are .inner-col .social-icons a {
+    margin: 0 0.25em;
+}
+
+.who-we-are .inner-col .social-icons i {
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+.about-us {
+    padding: 30px 0;
+}
+
+.about-us .container {
+    display: flex;
+    align-items: center;
+}
+
+.about-us .container > div {
+    padding: 0 10px 20px 10px;
+    flex-basis: 25%;
+}
+
+.about-us .container > div img {
+    width: 100%;
+}
+
+.about-us .container > div:last-child {
+    flex-basis: 50%;
+}
+
+.about-us .container > div > .col-inner {
+    padding: 0 0 0 10%;
+}
+
+.about-us .container > div > .col-inner h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000000;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.about-us .container > div > .col-inner p {
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+.about-us .container > div > .col-inner div button {
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #000000;
+    border: none;
+    font-weight: 700;
+}
+
+.about-us .container > div > .col-inner div button i {
+    margin-left: 7px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+.team {
+    background-color: rgb(39, 39, 39);
+}
+
+.team .inner-container {
+    padding: 30px 0;
+}
+
+.team .inner-container .join-us {
+    display: flex;
+    justify-content: center;
+}
+
+.team .inner-container .join-us .inner-col {
+    padding: 0 15px 30px 15px;
+    flex-basis: 42%;
+    text-align: center;
+}
+
+.team .inner-container .join-us .inner-col h6 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #ffffff;
+    opacity: 0.8;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.team .inner-container .join-us .inner-col h3 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+}
+
+
+
+
+
+.team .inner-container .team-profile {
+    display: flex;
+}
+
+.team .inner-container .team-profile .team-member {
+    padding: 0 10px 20px 10px;
+    flex-basis: 25%;
+}
+
+.team .inner-container .team-profile .team-member .image-box {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 80%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.team .inner-container .team-profile .team-member .image-box img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+
+
+
+
+.team .inner-container .team-profile .team-member .text-box {
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+}
+
+.team .inner-container .team-profile .team-member .text-box .member-name {
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+}
+
+.team .inner-container .team-profile .team-member .text-box .member-position {
+    color: #ffffff;
+    font-size: 13px;
+    opacity: 0.7;
+    display: block;
+}
+
+.team .inner-container .team-profile .team-member .text-box .social-icons {
+  margin-top: 10px;
+}
+
+.team .inner-container .team-profile .team-member .text-box .social-icons a {
+    line-height: 1.3;
+    margin: 0.1em 0.25em;
+}
+
+.team .inner-container .team-profile .team-member .text-box .social-icons a i {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+.testimonial {
+    background-color: rgb(244, 244, 244);
+}
+
+.testimonial .inner-container {
+    padding: 30px 0;
+}
+
+.testimonial .inner-container .testimonial-text {
+    padding: 0 15px 30px 15px;
+}
+
+.testimonial .inner-container .testimonial-text .col-inner {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.testimonial .inner-container .testimonial-text .col-inner p {
+    color: #777777;
+}
+
+
+
+.testimonial .inner-container .developers {
+    display: flex;
+}
+
+.testimonial .inner-container .developers .developer {
+    padding: 0 15px 30px 15px;
+    flex-basis: 50%;
+}
+
+.testimonial .inner-container .developers .developer .col-inner {
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.testimonial .inner-container .developers .developer .col-inner blockquote {
+    margin-bottom: 20px;
+    padding: 0 20px 0 30px;
+    border-left: 2px solid #000000;
+}
+
+.testimonial .inner-container .developers .developer .col-inner blockquote p {
+    color: #333;
+}
+
+.testimonial .inner-container .developers .developer .col-inner .developer-profile {
+    display: flex;
+}
+
+.testimonial .inner-container .developers .developer .col-inner .developer-profile .image-box {
+    flex-basis: 50px;
+}
+
+.testimonial .inner-container .developers .developer .col-inner .developer-profile .image-box img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.testimonial .inner-container .developers .developer .col-inner .developer-profile .developer-details {
+    flex-grow: 1;
+    padding-left: 13px;
+}
+
+.testimonial .inner-container .developers .developer .col-inner .developer-profile .developer-details h3 {
+    color: #555555;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.testimonial .inner-container .developers .developer .col-inner .developer-profile .developer-details p {
+    font-size: 13px;
+    margin: 0;
+    color: #777777;
+}
+
+
+
+
+.testimonial .inner-container .sponsors {
+    display: flex;
+}
+
+.testimonial .inner-container .sponsors .sponsor {
+    flex-basis: calc(100% / 6);
+    padding: 0 15px 30px 15px;
+    color: #777777;
+    cursor: pointer;
+}
+
+.testimonial .inner-container .sponsors .sponsor img {
+    width: 100%;
+    filter: invert(40%) sepia(60%) saturate(18%) hue-rotate(12deg) brightness(150%) contrast(86%);
+    transition: filter .7s;
+}
+
+.testimonial .inner-container .sponsors .sponsor:hover img {
+    filter: invert(40%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE DESIGN STARTS HERE */
+
+/* TABLET STYLES */
+@media screen and (max-width: 849px) {
+
+    .who-we-are {
+        min-height: 600px;
+    }
+    
+    .who-we-are .inner-container {
+        min-height: 600px;
+        display: flex;
+        align-items: center;
+    }
+
+    .who-we-are .inner-col {
+        flex-basis: 75%;
+    }
+    
+    .about-us .container {
+        flex-wrap: wrap;
+    }
+
+    .about-us .container > div {
+        flex-basis: 50%;
+    }
+    
+    .about-us .container > div:last-child {
+        flex-basis: 100%;
+    }
+
+    .about-us .container > div > .col-inner {
+        padding: 0;
+    }
+
+    .about-us .container .image-box .box-container {
+        padding-top: 400px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .about-us .container .image-box img {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-position: 50% 50%;
+        object-fit: cover;
+    }
+
+}
+
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 549px) {
+
+    .who-we-are .inner-col {
+        flex-basis: 100%;
+    }
+
+    .about-us .container > div {
+        flex-basis: 100%;
+    }
+
+    .about-us .container > div > .col-inner h2 {
+        font-size: 28px;
+    }
+
+
+    .team .inner-container .join-us .inner-col {
+        flex-basis: 100%;
+    }
+
+    .team .inner-container .join-us .inner-col h3 {
+        font-size: 32px;
+    }
+
+    .team .inner-container .team-profile {
+        flex-wrap: wrap;
+    }
+
+    .team .inner-container .team-profile .team-member {
+        flex-basis: 50%;
+        width: 50%;
+    }
+
+    main h2 {
+        font-size: 19px;
+    }
+
+    .testimonial .inner-container .developers {
+        flex-wrap: wrap;
+    }
+
+    .testimonial .inner-container .developers .developer {
+        flex-basis: 100%;
+    }
+
+    .testimonial .inner-container .developers .developer .col-inner .developer-profile .developer-details h3 {
+        font-size: 13px;
+    }
+
+    .testimonial .inner-container .sponsors {
+        flex-wrap: wrap;
+    }
+
+    .testimonial .inner-container .sponsors .sponsor {
+        flex-basis: calc(100% / 3);
+    }
+
+}

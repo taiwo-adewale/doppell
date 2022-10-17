@@ -1,0 +1,366 @@
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+main .inner-container {
+    display: flex;
+    padding: 30px 0;
+}
+
+main h2 {
+    color: #555555;
+    font-size: 26px;
+    margin-bottom: 13px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+
+#post-content {
+    flex-basis: 75%;
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#post-content .entry-header-text {
+    padding-bottom: 25px;
+    width: calc(100% - 30px);
+    flex-grow: 1;
+}
+
+#post-content .post-tags {
+    margin-bottom: 5px;
+    color: rgb(51, 72, 98);
+}
+
+#post-content .post-tags a {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(51, 72, 98);
+}
+
+#post-content .post-tags a:hover {
+    color: #000;
+}
+
+#post-content .post-title {
+    color: #555555;
+    font-size: 27px;
+    margin-bottom: 13px;
+}
+
+#post-content .post-details span {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #777777;
+}
+
+
+
+
+
+#post-content .post-image-box {
+    position: relative;
+    width: calc(100% - 30px);
+    flex-grow: 1;
+}
+
+#post-content .post-image-box img {
+    width: 100%;
+}
+
+#post-content .post-image-box .post-date {
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    z-index: 10;
+    position: absolute;
+    top: 8%;
+    left: -7px;
+    width: 2.8em;
+    height: 2.8em;
+    cursor: pointer;
+}
+
+#post-content .post-image-box .post-date > div {
+    padding: 2px;
+    line-height: 0.85;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#post-content .post-image-box .post-date .post-day {
+    color: #000000;
+    font-weight: bolder;
+    flex-basis: 100%;
+}
+
+#post-content .post-image-box .post-date .post-month {
+    font-size: 0.7em;
+    font-weight: bolder;
+    color: #000000;
+    flex-basis: 100%;
+    margin-top: -5px;
+}
+
+
+
+
+
+
+#post-content .post-content-words {
+    padding: 25px 0;
+    width: calc(100% - 30px);
+    flex-grow: 1;
+}
+
+#post-content .post-content-words p {
+    color: #777777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#post-content .post-content-words h3 {
+    font-size: 20px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+#post-content .post-content-words ul {
+    padding-left: 20px;
+}
+
+#post-content .post-content-words li {
+    list-style: disc;
+    color: #777777;
+    margin-bottom: 15px;
+}
+
+#post-content .post-content-words .image-container {
+    margin-bottom: 1em;
+}
+
+#post-content .post-content-words .image-container img {
+    width: 100%;
+}
+
+#post-content .post-content-words .blog-share .hor-divider {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#product-description > span > a {
+    font-size: 13px;
+    color: #334862;;
+}
+
+#post-content .post-content-words .social-icons {
+    text-align: center;
+}
+
+#post-content .post-content-words .social-icons a {
+    border: 2px solid silver;
+    background-color: transparent;
+    margin: 0 0.12em;
+    border-radius: 50%;
+    display: inline-block;
+    transition: border .3s, background-color .3s;
+}
+
+#post-content .post-content-words .social-icons a div {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+#post-content .post-content-words .social-icons a i {
+    font-size: 1.2em;
+    color: silver;
+    line-height: 1.6;
+    transition: color .3s;
+}
+
+
+
+
+
+
+
+
+
+
+/* COMMENT BOX */
+
+#post-content .comments {
+    width: calc(100% - 30px);
+    flex-grow: 1;
+}
+
+
+
+#post-content .comments h3 {
+    font-size: 20px;
+    color: #555555;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#post-content .comments .comment-box {
+    padding: 16px 0;
+}
+
+#post-content .comments .col-inner {
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 15px;
+    display: flex;
+}
+
+#post-content .comments .image-box {
+    flex-basis: 70px;
+}
+
+#post-content .comments .image-box img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#post-content .comments .comment-text-box {
+    padding: 0 15px;
+    flex-grow: 1;
+    flex-basis: calc(100% - 70px);
+}
+
+#post-content .comments .comment-text-box p {
+    color: #777777;
+}
+
+#post-content .comments .comment-text-box p span {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#post-content .comments .comment-text-box p:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+#post-content .comments .comment-text-box > span {
+    font-size: 12px;
+    color: #334862;
+}
+
+
+
+
+
+
+
+
+
+#post-content .comment-form {
+    padding: 30px 25px;
+    background-color: rgba(0,0,0,.05);
+    width: calc(100% - 30px);
+    flex-grow: 1;
+}
+
+#post-content .comment-form h3 {
+    color: #555555;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+#post-content .comment-form p {
+    color: #777777;
+    margin-bottom: 8px;
+}
+
+
+
+
+#post-content .comment-form form .comment-form-name {
+    flex-basis: 50%;
+    padding: 0 15px 0 0;
+}
+
+#post-content .comment-form form .comment-form-email {
+    flex-basis: 50%;
+    padding: 0 0 0 15px;
+}
+
+#post-content .comment-form form div span {
+    flex-basis: 100%;
+    margin-bottom: 8px;
+}
+
+#post-content .comment-form form button {
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    padding: 0 1.2em;
+    min-height: 2.5em;
+    line-height: 2.4em;
+    font-weight: bold;
+    font-size: 0.97em;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE DESIGN STARTS HERE */
+
+/* TABLET STYLES */
+@media screen and (max-width: 849px) {
+
+    main .inner-container {
+        flex-wrap: wrap;
+    }
+
+    #post-content {
+        flex-basis: 100%;
+        padding: 0 15px 30px 15px;
+    }
+
+
+
+
+        
+    #post-content .post-content-words {
+        padding: 25px 0;
+        width: calc(100% - 30px);
+    }
+
+
+    
+
+    #post-content .comment-form form .comment-form-name {
+        flex-basis: 100%;
+        padding: 0;
+    }
+
+    #post-content .comment-form form .comment-form-email {
+        flex-basis: 100%;
+        padding: 0;
+    }
+
+}
