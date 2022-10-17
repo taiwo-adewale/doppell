@@ -21,7 +21,7 @@
   <!-- PAGE CSS -->
   <link rel="stylesheet" href="styles/about.css?v=<?php echo time(); ?>"/>
   <!-- FONT AWESOME ICONS -->
-  <link rel="stylesheet" href="vendor/fontawesome-free-6.1.2-web/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <title>About Us - Doppell</title>
     

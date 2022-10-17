@@ -36,7 +36,7 @@
     <!-- SIDEBAR CSS -->
     <link rel="stylesheet" href="styles/posts-side-bar.css?v=<?php echo time(); ?>"/>
     <!-- FONT AWESOME ICONS -->
-    <link rel="stylesheet" href="vendor/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
     <title><?php echo $current_post['post_title']; ?> - Doppell</title>
