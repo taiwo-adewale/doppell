@@ -17,7 +17,7 @@
     <link rel="icon" href="images/favicon-192x192.png" sizes="192x192">
     <link rel="apple-touch-icon" href="images/favicon-180x180.png">
     <!-- Swiper's CSS -->
-    <link rel="stylesheet" href="vendor/swiper/swiper.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <!-- HEADER & FOOTER CSS -->
     <link rel="stylesheet" href="styles/header-and-footer.css?v=<?php echo time(); ?>"/>
     <!-- PAGE CSS -->
@@ -304,7 +304,7 @@
     </script>
 
     <!-- Swiper JS -->
-    <script src="vendor/swiper/swiper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
