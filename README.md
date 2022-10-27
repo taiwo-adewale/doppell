@@ -1,4 +1,4 @@
-# Doppell Ecommmerce Website
+# Doppell Ecommerce Website
 
 ## Table of contents
 
