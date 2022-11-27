@@ -98,5 +98,5 @@
 
 
 <!-- JS files -->
-<script src="vendor/jquery-3.6.0.min.js"></script>
+<script src="scripts/jquery-3.6.0.min.js"></script>
 <script src="scripts/scripts.js?v=<?php echo time(); ?>"></script>
