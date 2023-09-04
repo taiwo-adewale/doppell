@@ -25,16 +25,16 @@ Doppell is a multifaceted website that combines e-commerce functionality with a 
 
 ## Screenshots
 
-<div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 10px">
-  <img src="https://doppell.000webhostapp.com/images/screenshot-1.png" width="270" />
-  <img src="https://doppell.000webhostapp.com/images/screenshot-2.png" width="270" />
-  <img src="https://doppell.000webhostapp.com/images/screenshot-3.png" width="270" />
-  <img src="https://doppell.000webhostapp.com/images/screenshot-4.png" width="270" />
-  <img src="https://doppell.000webhostapp.com/images/screenshot-5.png" width="270" />
-  <img src="https://doppell.000webhostapp.com/images/screenshot-6.png" width="270" />
-  <img src="https://doppell.000webhostapp.com/images/screenshot-7.png" width="270" />
-  <img src="https://doppell.000webhostapp.com/images/screenshot-8.png" width="270" />
-  <img src="https://doppell.000webhostapp.com/images/screenshot-9.png" width="270" />
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 20px">
+  <img src="https://doppell.000webhostapp.com/images/screenshot-1.png" width="48%" />
+  <img src="https://doppell.000webhostapp.com/images/screenshot-2.png" width="48%" />
+  <img src="https://doppell.000webhostapp.com/images/screenshot-3.png" width="48%" />
+  <img src="https://doppell.000webhostapp.com/images/screenshot-4.png" width="48%" />
+  <img src="https://doppell.000webhostapp.com/images/screenshot-5.png" width="48%" />
+  <img src="https://doppell.000webhostapp.com/images/screenshot-6.png" width="48%" />
+  <img src="https://doppell.000webhostapp.com/images/screenshot-7.png" width="48%" />
+  <img src="https://doppell.000webhostapp.com/images/screenshot-8.png" width="48%" />
+  <img src="https://doppell.000webhostapp.com/images/screenshot-9.png" width="48%" />
 </div>
 
 ## Installation
