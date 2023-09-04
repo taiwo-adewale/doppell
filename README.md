@@ -26,30 +26,16 @@ Doppell is a multifaceted website that combines e-commerce functionality with a 
 ## Screenshots
 
 <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 10px">
-    <img src="https://doppell.000webhostapp.com/images/screenshot-1.png" />
-    <img src="https://doppell.000webhostapp.com/images/screenshot-2.png" />
-    <img src="https://doppell.000webhostapp.com/images/screenshot-3.png" />
-    <img src="https://doppell.000webhostapp.com/images/screenshot-4.png" />
-    <img src="https://doppell.000webhostapp.com/images/screenshot-5.png" />
-    <img src="https://doppell.000webhostapp.com/images/screenshot-6.png" />
-    <img src="https://doppell.000webhostapp.com/images/screenshot-7.png" />
-    <img src="https://doppell.000webhostapp.com/images/screenshot-8.png" />
-    <img src="https://doppell.000webhostapp.com/images/screenshot-9.png" />
+    <img src="https://doppell.000webhostapp.com/images/screenshot-1.png" style="width: 100%; max-width: 270px" />
+    <img src="https://doppell.000webhostapp.com/images/screenshot-2.png" style="width: 100%; max-width: 270px" />
+    <img src="https://doppell.000webhostapp.com/images/screenshot-3.png" style="width: 100%; max-width: 270px" />
+    <img src="https://doppell.000webhostapp.com/images/screenshot-4.png" style="width: 100%; max-width: 270px" />
+    <img src="https://doppell.000webhostapp.com/images/screenshot-5.png" style="width: 100%; max-width: 270px" />
+    <img src="https://doppell.000webhostapp.com/images/screenshot-6.png" style="width: 100%; max-width: 270px" />
+    <img src="https://doppell.000webhostapp.com/images/screenshot-7.png" style="width: 100%; max-width: 270px" />
+    <img src="https://doppell.000webhostapp.com/images/screenshot-8.png" style="width: 100%; max-width: 270px" />
+    <img src="https://doppell.000webhostapp.com/images/screenshot-9.png" style="width: 100%; max-width: 270px" />
 </div>
-
-<style>
-  img {
-    width: 48%;
-  }
-
-  @media screen (min-width:600px) {
-    img {
-      display: none
-    width: 100%;
-    max-width: 270px
-  }
-  }
-  </style>
 
 ## Installation
 
